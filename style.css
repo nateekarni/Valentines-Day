@@ -12,11 +12,14 @@ body {
   position: absolute;
   margin-left: 150px;
   transition: 0.5s;
+  border: solid 2px #FCE3E9;
 }
 
 #yesButton {
   position: absolute;
   margin-right: 200px;
+  transition: 0.5s;
+  border: solid 2px #FCE3E9;
 }
 
 .header_text {
@@ -29,7 +32,7 @@ body {
   color: #FFB3C3;
   background: white;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   border: 3px solid #FCE3E9;
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
   white-space: nowrap;
