@@ -6,18 +6,18 @@ body {
   font-size: 20px;
   line-height: 1.5;
   background-color: #fff;
-  background-image: url(/8382922.jpg);
+  background-image: url(/job297-ploy-03b-pink-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .box {
   background: #e91e63;
-  padding: 100px 60px;
+  padding: 60px 60px;
   color: #fff;
-  width: 50%;
+  width: 60%;
   text-align: center;
   margin: 25vh auto;
   position: relative;
@@ -90,4 +90,33 @@ body {
   0%{ transform: scale(1);}
   50%{transform: scale(1.3);}
   100%{transform: scale(1);}
+}
+
+@media only screen and (max-width: 500px) {
+  .top-border:before{
+    width: 80px;
+    height: 80px;
+  }
+  
+  .top-border:after{
+    width: 80px;
+    height: 80px;
+  }
+  .bottom-border:before{
+    width: 80px;
+    height: 80px;
+  }
+  .bottom-border:before{
+    width: 80px;
+    height: 80px;
+  }
+
+  .box {
+    font-size: 16px;
+    margin: 10vh auto;
+  }
+
+  .box h3 {
+    font-size: 32px;
+  }
 }
