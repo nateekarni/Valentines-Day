@@ -9,6 +9,7 @@ body {
 }
 
 #noButton {
+  font-family: 'Dosis';
   position: absolute;
   margin-left: 150px;
   transition: 0.5s;
@@ -16,6 +17,7 @@ body {
 }
 
 #yesButton {
+  font-family: 'Dosis';
   position: absolute;
   margin-right: 200px;
   transition: 0.5s;
@@ -71,10 +73,10 @@ body {
 }
 
 .image-1 {
-  width: 650px;
+  width: 400px;
 }
 
-@media only screen and (max-width: 320px) and (max-height: 568px) {
+@media only screen and (max-width: 320px) {
   body {
       height: 100vh;
   }
@@ -83,8 +85,8 @@ body {
       font-size: 20px;
   }
 
-  img {
-      height: 60vh;
+  .image-1 {
+    width: 400px;
   }
 
   .btn {
@@ -93,7 +95,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 414px) and (max-height: 736px) {
+@media only screen and (max-width: 470px) {
   body {
       height: 90vh;
   }
@@ -102,8 +104,8 @@ body {
       font-size: 28px;
   }
 
-  img {
-      height: 60vh;
+  .image-1 {
+      width: 400px;
   }
 
   .btn {
